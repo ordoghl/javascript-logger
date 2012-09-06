@@ -65,7 +65,7 @@
     logString = function (level, str) {
       var out;
       out = "[" + module_name + "]" + "[" + level + "]";
-      if (win.LoggerConfiguration.enableTimeStamp !== undefined || win.LoggerConfiguration.enableTimeStamp) {
+      if (win.LoggerConfiguration.enableTimestamp !== undefined || win.LoggerConfiguration.enableTimestamp) {
         out += "[" + currentTimeString() + "]";
       }
       out += ": " + str;
